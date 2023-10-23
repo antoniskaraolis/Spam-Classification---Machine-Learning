@@ -3,8 +3,7 @@
 This project aims to build a spam email classifier using Support Vector Machines (SVM) and Multinomial Naive Bayes (MNB) models. The project comprises two Python scripts: main.py and experiments.py. 
 
 ## Main.py
-This [script](Spam-Classification---Machine-Learning
-/main.py) trains and saves the final spam classification model. It uses the SVM model. It defines a function `train_test(train.csv,test.csv)` which expects paths to a train and a test CSV files as arguments. 
+This [script](https://github.com/antoniskaraolis/Spam-Classification---Machine-Learning/blob/main/main.py) trains and saves the final spam classification model. It uses the SVM model. It defines a function `train_test(train.csv,test.csv)` which expects paths to a train and a test CSV files as arguments. 
 
 The train file should have two columns: 'email' (the email text) and 'label' (the label of the email, where 'spam' is 1 and 'ham' is 0). The test file should have only one column: 'email'. The 'label' column is not included as the purpose is to predict these labels.
 
