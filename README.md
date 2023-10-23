@@ -12,7 +12,7 @@ When run, this script trains the SVM model on the training data and then makes p
 The script also saves the trained model and the preprocessor as pickle files ('model.pkl' and 'preprocessor.pkl') which can be loaded later to make predictions on new data without needing to retrain the model.
 
 ## Experiments.py
-This script is used for experimental purposes. It trains and evaluates both the SVM and MNB models on the training data, and prints out the classification reports and confusion matrices for both models. This script is used to determine which model performs best and should be used in the main.py script.
+This [script](https://github.com/antoniskaraolis/Spam-Classification---Machine-Learning/blob/main/experiments.py) is used for experimental purposes. It trains and evaluates both the SVM and MNB models on the training data, and prints out the classification reports and confusion matrices for both models. This script is used to determine which model performs best and should be used in the main.py script.
 
 The script expects a path to a train CSV file as an argument. The file should have two columns: 'email' (the email text) and 'label' (the label of the email, where 'spam' is 1 and 'ham' is 0).
 
