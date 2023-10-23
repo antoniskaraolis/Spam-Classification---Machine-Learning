@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 # main.py
 import pandas as pd
 import re
@@ -57,9 +54,6 @@ def train_test(train_file, test_file):
 
 #Call the train_test function
 #train_test('train.csv', 'test.csv')
-
-
-# In[ ]:
 
 
 #print the predictions
